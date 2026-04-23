@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* FULL SCREEN FIX */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* MAIN CONTAINER */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: #0f172a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #020617;
+  padding: 20px;
+  border-right: 1px solid #1e293b;
+}
+
+.sidebar h2 {
+  color: #22c55e;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: white;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* TITLE */
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* TOP CARD */
+.top-card {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  background: #22c55e;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.primary-btn {
+  margin-top: 10px;
+  background: #22c55e;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* PRODUCT ROW */
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.feature-btn {
+  background: #22c55e;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #3b82f6;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: #ef4444;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
